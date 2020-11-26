@@ -1,0 +1,147 @@
+
+
+#barradeBienvenida{
+
+    background: #FA8258;
+    display: flex;   /*Flexbox no permite organizar */
+    flex-direction: row; /* eje principal vertical */
+    width: 50%;
+    margin: 0 auto;
+    align-items: center; /*eje cruzado*/
+    justify-content: center;  /*eje principal que es el verical*/
+    padding: 40px;  /* El paddin nos permite crear como una margen para que no quede tan pegado a los bordes de la pagina con respecto al interior del div*/
+    border-radius: 80px;
+
+}
+
+#General{
+    background: white;
+    display: flex;   /*Flexbox no permite organizar */
+    flex-direction: row; /* eje principal vertical */
+    width: 50%;
+    margin: 0 auto;
+    align-items: center; /*eje cruzado*/
+    justify-content: center;  /*eje principal que es el verical*/
+    padding: 100px;  /* El paddin nos permite crear como una margen para que no quede tan pegado a los bordes de la pagina con respecto al interior del div*/
+    border-radius: 80px;
+
+}
+#Etapa1{
+    background: #a09093;
+    display: flex;   /*Flexbox no permite organizar */
+    flex-direction: column; /* eje principal vertical */
+    width: 50%;
+    margin: 0 auto;
+    align-items: center; /*eje cruzado*/
+    justify-content: center;  /*eje principal que es el verical*/
+    padding: 30px; /* El paddin nos permite crear como una margen para que no quede tan pegado a los bordes de la pagina con respecto al interior del div*/
+    border-radius: 80px;
+
+}
+#Etapa2{
+    background: #a09093;
+    display: flex;   /*Flexbox no permite organizar */
+    flex-direction: column; /* eje principal vertical */
+    width: 50%;
+    margin: 0 auto;
+    align-items: center; /*eje cruzado*/
+    justify-content: center;  /*eje principal que es el verical*/
+    padding: 30px; /* El paddin nos permite crear como una margen para que no quede tan pegado a los bordes de la pagina con respecto al interior del div*/
+    border-radius: 80px;
+
+}
+#Etapa3{
+    background: #a09093;
+    display: flex;   /*Flexbox no permite organizar */
+    flex-direction: column; /* eje principal vertical */
+    width: 50%;
+    margin: 0 auto;
+    align-items: center; /*eje cruzado*/
+    justify-content: center;  /*eje principal que es el verical*/
+    padding: 30px;/* El paddin nos permite crear como una margen para que no quede tan pegado a los bordes de la pagina con respecto al interior del div*/
+    border-radius: 80px;
+
+}
+
+.todoComponent{
+   
+    background: rgb(89, 196, 164);
+    padding: 20px;
+    width: 150px;
+    position: relative;
+    margin: 10px  auto;
+    border-radius: 30px;
+
+}
+.descripccionToDo{
+
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(53, 44, 175);
+    cursor: pointer;
+
+}
+.delBtn{
+
+    background: red;
+    position:absolute;
+   
+    right:0;
+    top: 0; 
+
+    border-radius: 50%;
+    border: 1px solid black;
+
+}
+
+.avanzarBtn{
+
+    background: blue;
+    position:absolute;
+    
+    right:0;
+    bottom: 0; 
+
+    border-radius: 50%;
+    border: 1px solid black;
+
+}
+.doingComponent{
+    
+
+    background: rgb(89, 196, 164);
+    padding: 20px;
+    width: 150px;
+    border-radius: 30px;
+    position: relative;
+    margin: 10px  auto;
+
+}
+.descripccionDoing{
+
+
+    font-weight: bolder;
+    color: rgb(53, 44, 175);
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+
+
+}
+.atrazarBtn{
+
+    background: yellow;
+    position:absolute;
+    
+    left: 0;
+    bottom:0;
+
+    border-radius: 50%;
+    border: 1px solid black;
+
+}
+#tarea{
+    width: 100px;
+}
+
+
